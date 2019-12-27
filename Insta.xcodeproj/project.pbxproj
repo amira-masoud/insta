@@ -3,17 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2928DEF123AAD1270045C493 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928DEF023AAD1270045C493 /* HomeViewController.swift */; };
+		2928DEF323AAD1400045C493 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928DEF223AAD1400045C493 /* DiscoverViewController.swift */; };
+		2928DEF523AAD15A0045C493 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928DEF423AAD15A0045C493 /* CameraViewController.swift */; };
+		2928DEF723AAD16E0045C493 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928DEF623AAD16E0045C493 /* ActivityViewController.swift */; };
+		2928DEF923AAD17C0045C493 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928DEF823AAD17C0045C493 /* ProfileViewController.swift */; };
 		2970D83D23AA5C74009538EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970D83C23AA5C74009538EA /* AppDelegate.swift */; };
-		2970D83F23AA5C74009538EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970D83E23AA5C74009538EA /* ViewController.swift */; };
 		2970D84223AA5C74009538EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2970D84023AA5C74009538EA /* Main.storyboard */; };
 		2970D84423AA5C76009538EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2970D84323AA5C76009538EA /* Assets.xcassets */; };
 		2970D84723AA5C76009538EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2970D84523AA5C76009538EA /* LaunchScreen.storyboard */; };
 		2970D85223AA5C76009538EA /* InstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970D85123AA5C76009538EA /* InstaTests.swift */; };
 		2970D85D23AA5C76009538EA /* InstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970D85C23AA5C76009538EA /* InstaUITests.swift */; };
+		2970D86B23AA65E7009538EA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970D86A23AA65E7009538EA /* SignInViewController.swift */; };
+		2970D86D23AA6844009538EA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970D86C23AA6844009538EA /* SignUpViewController.swift */; };
+		29AFCFAC23AD42CB004E3748 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AFCFAA23AD42CB004E3748 /* Second.storyboard */; };
+		29AFCFAF23AD45B1004E3748 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AFCFAD23AD45B1004E3748 /* Home.storyboard */; };
+		29AFCFB123AD4640004E3748 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AFCFB023AD4640004E3748 /* Discover.storyboard */; };
+		29AFCFB423AD4693004E3748 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AFCFB223AD4693004E3748 /* Camera.storyboard */; };
+		29AFCFB623AD46E7004E3748 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AFCFB523AD46E7004E3748 /* Activity.storyboard */; };
+		29AFCFB923AD471C004E3748 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29AFCFB723AD471C004E3748 /* Profile.storyboard */; };
+		29C7488423AEA984006AD464 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29C7488323AEA984006AD464 /* GoogleService-Info.plist */; };
+		B35606E3736B3118B486FDBE /* Pods_Insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21FB1A440E98B1C7556BE3E /* Pods_Insta.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2928DEF023AAD1270045C493 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2928DEF223AAD1400045C493 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		2928DEF423AAD15A0045C493 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2928DEF623AAD16E0045C493 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		2928DEF823AAD17C0045C493 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2970D83923AA5C74009538EA /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970D83C23AA5C74009538EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2970D83E23AA5C74009538EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2970D84123AA5C74009538EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2970D84323AA5C76009538EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2970D84623AA5C76009538EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,18 @@
 		2970D85823AA5C76009538EA /* InstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970D85C23AA5C76009538EA /* InstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaUITests.swift; sourceTree = "<group>"; };
 		2970D85E23AA5C76009538EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2970D86A23AA65E7009538EA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2970D86C23AA6844009538EA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		29AFCFAB23AD42CB004E3748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Insta/Base.lproj/Second.storyboard; sourceTree = "<group>"; };
+		29AFCFAE23AD45B1004E3748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Insta/Insta/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		29AFCFB023AD4640004E3748 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		29AFCFB323AD4693004E3748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Insta/Insta/Base.lproj/Camera.storyboard; sourceTree = "<group>"; };
+		29AFCFB523AD46E7004E3748 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		29AFCFB823AD471C004E3748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Insta/Insta/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
+		29C7488323AEA984006AD464 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABA04E189F2DE2E663302CC4 /* Pods-Insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta.debug.xcconfig"; path = "Target Support Files/Pods-Insta/Pods-Insta.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB5300B02069A878DCF6F26 /* Pods-Insta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta.release.xcconfig"; path = "Target Support Files/Pods-Insta/Pods-Insta.release.xcconfig"; sourceTree = "<group>"; };
+		D21FB1A440E98B1C7556BE3E /* Pods_Insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35606E3736B3118B486FDBE /* Pods_Insta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +112,8 @@
 				2970D85023AA5C76009538EA /* InstaTests */,
 				2970D85B23AA5C76009538EA /* InstaUITests */,
 				2970D83A23AA5C74009538EA /* Products */,
+				7870D6F8438FC92DEA18A87A /* Pods */,
+				2E95424E1AD1773597F38D38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +130,12 @@
 		2970D83B23AA5C74009538EA /* Insta */ = {
 			isa = PBXGroup;
 			children = (
+				29AFCFBB23AD5BFB004E3748 /* ViewControllers */,
+				29AFCFBA23AD5BDD004E3748 /* Storyboards */,
 				2970D83C23AA5C74009538EA /* AppDelegate.swift */,
-				2970D83E23AA5C74009538EA /* ViewController.swift */,
-				2970D84023AA5C74009538EA /* Main.storyboard */,
 				2970D84323AA5C76009538EA /* Assets.xcassets */,
 				2970D84523AA5C76009538EA /* LaunchScreen.storyboard */,
+				29C7488323AEA984006AD464 /* GoogleService-Info.plist */,
 				2970D84823AA5C76009538EA /* Info.plist */,
 			);
 			path = Insta;
@@ -125,6 +159,51 @@
 			path = InstaUITests;
 			sourceTree = "<group>";
 		};
+		29AFCFBA23AD5BDD004E3748 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2970D84023AA5C74009538EA /* Main.storyboard */,
+				29AFCFAA23AD42CB004E3748 /* Second.storyboard */,
+				29AFCFAD23AD45B1004E3748 /* Home.storyboard */,
+				29AFCFB023AD4640004E3748 /* Discover.storyboard */,
+				29AFCFB223AD4693004E3748 /* Camera.storyboard */,
+				29AFCFB523AD46E7004E3748 /* Activity.storyboard */,
+				29AFCFB723AD471C004E3748 /* Profile.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		29AFCFBB23AD5BFB004E3748 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2970D86A23AA65E7009538EA /* SignInViewController.swift */,
+				2970D86C23AA6844009538EA /* SignUpViewController.swift */,
+				2928DEF023AAD1270045C493 /* HomeViewController.swift */,
+				2928DEF223AAD1400045C493 /* DiscoverViewController.swift */,
+				2928DEF423AAD15A0045C493 /* CameraViewController.swift */,
+				2928DEF623AAD16E0045C493 /* ActivityViewController.swift */,
+				2928DEF823AAD17C0045C493 /* ProfileViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2E95424E1AD1773597F38D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D21FB1A440E98B1C7556BE3E /* Pods_Insta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7870D6F8438FC92DEA18A87A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABA04E189F2DE2E663302CC4 /* Pods-Insta.debug.xcconfig */,
+				ACB5300B02069A878DCF6F26 /* Pods-Insta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2970D86123AA5C76009538EA /* Build configuration list for PBXNativeTarget "Insta" */;
 			buildPhases = (
+				04E4D0A3A87A53E678103DE8 /* [CP] Check Pods Manifest.lock */,
 				2970D83523AA5C74009538EA /* Sources */,
 				2970D83623AA5C74009538EA /* Frameworks */,
 				2970D83723AA5C74009538EA /* Resources */,
+				0614A87C3B686F4633CCF489 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +310,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AFCFAC23AD42CB004E3748 /* Second.storyboard in Resources */,
+				29AFCFB423AD4693004E3748 /* Camera.storyboard in Resources */,
+				29AFCFAF23AD45B1004E3748 /* Home.storyboard in Resources */,
 				2970D84723AA5C76009538EA /* LaunchScreen.storyboard in Resources */,
 				2970D84423AA5C76009538EA /* Assets.xcassets in Resources */,
 				2970D84223AA5C74009538EA /* Main.storyboard in Resources */,
+				29AFCFB923AD471C004E3748 /* Profile.storyboard in Resources */,
+				29C7488423AEA984006AD464 /* GoogleService-Info.plist in Resources */,
+				29AFCFB123AD4640004E3748 /* Discover.storyboard in Resources */,
+				29AFCFB623AD46E7004E3748 /* Activity.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +339,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04E4D0A3A87A53E678103DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Insta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0614A87C3B686F4633CCF489 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insta/Pods-Insta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Insta/Pods-Insta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Insta/Pods-Insta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2970D83523AA5C74009538EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2970D83F23AA5C74009538EA /* ViewController.swift in Sources */,
+				2928DEF123AAD1270045C493 /* HomeViewController.swift in Sources */,
 				2970D83D23AA5C74009538EA /* AppDelegate.swift in Sources */,
+				2928DEF723AAD16E0045C493 /* ActivityViewController.swift in Sources */,
+				2928DEF323AAD1400045C493 /* DiscoverViewController.swift in Sources */,
+				2928DEF523AAD15A0045C493 /* CameraViewController.swift in Sources */,
+				2928DEF923AAD17C0045C493 /* ProfileViewController.swift in Sources */,
+				2970D86D23AA6844009538EA /* SignUpViewController.swift in Sources */,
+				2970D86B23AA65E7009538EA /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +443,38 @@
 				2970D84623AA5C76009538EA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		29AFCFAA23AD42CB004E3748 /* Second.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AFCFAB23AD42CB004E3748 /* Base */,
+			);
+			name = Second.storyboard;
+			sourceTree = "<group>";
+		};
+		29AFCFAD23AD45B1004E3748 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AFCFAE23AD45B1004E3748 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		29AFCFB223AD4693004E3748 /* Camera.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AFCFB323AD4693004E3748 /* Base */,
+			);
+			name = Camera.storyboard;
+			sourceTree = "<group>";
+		};
+		29AFCFB723AD471C004E3748 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29AFCFB823AD471C004E3748 /* Base */,
+			);
+			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -430,6 +598,7 @@
 		};
 		2970D86223AA5C76009538EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA04E189F2DE2E663302CC4 /* Pods-Insta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +616,7 @@
 		};
 		2970D86323AA5C76009538EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB5300B02069A878DCF6F26 /* Pods-Insta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
