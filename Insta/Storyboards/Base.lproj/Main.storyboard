@@ -13,7 +13,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SignInViewController" customModule="Insta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignInViewController" id="BYZ-38-t0r" customClass="SignInViewController" customModule="Insta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="TRw-Nq-Ae8" kind="presentation" id="XXa-0n-av4"/>
+                                            <action selector="singInButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kf1-zJ-YQ1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -90,6 +90,8 @@
                     <connections>
                         <outlet property="EmailTextField" destination="Ozf-Is-8hQ" id="sjI-Nr-yAK"/>
                         <outlet property="PasswordTextField" destination="o4M-PO-CO3" id="YuY-8H-CeE"/>
+                        <outlet property="signInButton" destination="QaC-kO-2MG" id="kf7-VI-zTw"/>
+                        <segue destination="TRw-Nq-Ae8" kind="presentation" identifier="SignIN" id="Urr-Jx-3J4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -170,8 +172,12 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cB-fm-gQs">
                                 <rect key="frame" x="167" y="114" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="6rm-vL-Dfw"/>
+                                    <constraint firstAttribute="width" constant="80" id="sX0-ZU-C0e"/>
+                                </constraints>
                                 <connections>
-                                    <action selector="imageButton:" destination="utP-Tc-d4b" eventType="touchUpInside" id="Jhr-of-O6Z"/>
+                                    <action selector="imageButton:" destination="utP-Tc-d4b" eventType="touchUpInside" id="txy-uA-9zt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -197,7 +203,9 @@
                         <outlet property="emailTextField" destination="CBR-ea-Kns" id="zQq-pA-N9a"/>
                         <outlet property="passwordTextField" destination="b7M-7v-oVx" id="rR3-j7-xK6"/>
                         <outlet property="profileImage" destination="dSP-Cy-Y4C" id="3yg-a7-5fW"/>
+                        <outlet property="signBTN" destination="Gxr-Wc-OB5" id="l9d-dr-43C"/>
                         <outlet property="usernameTextField" destination="5Jn-OH-nde" id="xrh-fL-8Ox"/>
+                        <segue destination="TRw-Nq-Ae8" kind="presentation" identifier="SignUP" id="wyG-og-72S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Tc-7A-dZp" sceneMemberID="firstResponder"/>
@@ -210,10 +218,13 @@
                 <viewControllerPlaceholder storyboardName="Second" referencedIdentifier="TabBarid" id="TRw-Nq-Ae8" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EZi-ym-kSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1" y="-503"/>
+            <point key="canvasLocation" x="-23" y="-698"/>
         </scene>
     </scenes>
     <resources>
         <image name="placeholderImg" width="300" height="300"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Urr-Jx-3J4"/>
+    </inferredMetricsTieBreakers>
 </document>

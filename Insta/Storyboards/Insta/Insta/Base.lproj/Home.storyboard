@@ -17,14 +17,45 @@
                     <view key="view" contentMode="scaleToFill" id="Xb3-QJ-3FM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JXK-bP-QS4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="postCell" rowHeight="44" id="P5w-lU-zC9">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P5w-lU-zC9" id="PNV-ER-ma3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JXK-bP-QS4" firstAttribute="trailing" secondItem="NZw-v5-zTZ" secondAttribute="trailing" id="PCf-fU-FOv"/>
+                            <constraint firstItem="JXK-bP-QS4" firstAttribute="leading" secondItem="NZw-v5-zTZ" secondAttribute="leading" id="hG8-xu-7Tq"/>
+                            <constraint firstItem="JXK-bP-QS4" firstAttribute="top" secondItem="Xb3-QJ-3FM" secondAttribute="top" id="iLZ-O5-K2r"/>
+                            <constraint firstItem="JXK-bP-QS4" firstAttribute="bottom" secondItem="NZw-v5-zTZ" secondAttribute="bottom" id="uWC-D0-z8D"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NZw-v5-zTZ"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="7OY-0b-sHu"/>
+                    <navigationItem key="navigationItem" title="Home" id="7OY-0b-sHu">
+                        <barButtonItem key="leftBarButtonItem" title="LogOut" id="5Lv-ng-C9a">
+                            <connections>
+                                <action selector="logoutBTN:" destination="CwV-Hb-uLh" id="uO3-hX-oJb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="JXK-bP-QS4" id="LDF-qh-K0Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqK-5S-y4N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-522" y="636"/>
+            <point key="canvasLocation" x="-522.39999999999998" y="635.53223388305855"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RWd-iN-aGh">

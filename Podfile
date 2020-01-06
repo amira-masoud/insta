@@ -9,5 +9,8 @@ target 'Insta' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'SDWebImage'
+  pod 'KILabel'
+  pod 'ImagePicker'
 
 end
